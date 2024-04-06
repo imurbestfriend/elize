@@ -1,11 +1,17 @@
 .header {
-	background-color: #c0e4f4;
+	background-color: #ffff;
 	padding: 50px 0;
 
 	&__row {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
+	}
+	&__nav{
+		
+	}
+	.nav__list{
+	
 	}
 }
 
