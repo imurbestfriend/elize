@@ -1,4 +1,11 @@
 @font-face {
+	font-family: FirasansBook;
+	font-display: swap;
+	src: url("../fonts/FirasansBook.woff2") format("woff2"), url("../fonts/FirasansBook.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
 	font-family: Montserrat;
 	font-display: swap;
 	src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
@@ -13,6 +20,13 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: JosefinSans;
+	font-display: swap;
+	src: url("../fonts/JosefinSans-VariableFont_wght.woff2") format("woff2"), url("../fonts/JosefinSans-VariableFont_wght.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
 	font-family: Montserrat;
 	font-display: swap;
 	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
@@ -20,9 +34,9 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: FirasansBook;
+	font-family: JosefinSans;
 	font-display: swap;
-	src: url("../fonts/FirasansBook.woff2") format("woff2"), url("../fonts/FirasansBook.woff") format("woff");
+	src: url("../fonts/JosefinSans-Italic-VariableFont_wght.woff2") format("woff2"), url("../fonts/JosefinSans-Italic-VariableFont_wght.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
