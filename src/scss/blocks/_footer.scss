@@ -1,0 +1,37 @@
+$txtColor: #9F9F9F;
+.footer {
+	background-color: rgb(39, 39, 39);
+	padding: 50px 0;
+	font-size: 32px;
+    color: #fff;
+
+	h1 {
+		font-size: 32px;
+	}
+
+	a {
+		// color: var(--link-color);
+		color: #fff;
+		text-decoration: underline;
+	}
+
+	@media (max-width: 1200px) {
+		font-size: 26px;
+	}
+	&__block{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	&__block{
+		&-logo{
+			span{
+				font-size: 14px;
+				color: $txtColor;
+			}
+			.title{
+				font-size: 30px;
+			}
+		}
+	}
+}
+
