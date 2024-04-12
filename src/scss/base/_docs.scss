@@ -84,6 +84,16 @@
 }
 
 .font-2 {
-	font-family: 'FirasansBook';
-	font-weight: 400;
+	font-family: 'Lateef';
+	font-display: swap;
+	src: url("../fonts/Lateef-Light.woff2") format("woff2"), url("../fonts/Lateef-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+.font-3{
+	font-family: 'JosefinSans';
+	font-display: swap;
+	src: url("../fonts/JosefinSans-VariableFont_wght.woff2") format("woff2"), url("../fonts/JosefinSans-VariableFont_wght.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
 }
