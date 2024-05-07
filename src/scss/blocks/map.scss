@@ -1,0 +1,26 @@
+.map{
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    &-block-map{
+        text-align: center;
+        &__txt{
+            margin: 20px 0;
+            p{
+                
+            }
+            strong{
+                
+            }
+        }
+    }
+    &-contact{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
