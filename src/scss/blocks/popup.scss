@@ -2,4 +2,11 @@
     display: none;
     position: absolute;
     z-index: 999;
+    max-width: 700px;
+    background-color: #fff;
+}
+.popup-block{
+    &__closeBtn{
+        float: right;
+    }
 }

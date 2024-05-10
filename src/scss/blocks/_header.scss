@@ -1,8 +1,6 @@
 $line: #d9d9d9;
 .header {
 	background-color: #ffff;
-	padding: 20px 0;
-
 	&__logo{
 		&__container{
 			display: flex;
@@ -13,6 +11,9 @@ $line: #d9d9d9;
 				}
 				&-title{
 					cursor: pointer;
+					a{
+						color: #000000;
+					}
 				}
 				&-lang,&-wish{
 					font-size: 14px;
